@@ -26,6 +26,11 @@ export default {
   components: {
     email,
   },
+  data() {
+    return {
+      email: null,
+    };
+  },
 };
 </script>
 
