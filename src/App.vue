@@ -3,20 +3,20 @@
     <div class="app">
       <navigation v-if="!navigation" />
       <router-view />
-      <Footer v-if="!navigation" />
+      <AppFooter v-if="!navigation" />
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+import AppFooter from "@/components/AppFooter";
 
 export default {
   name: "app",
   components: {
     Navigation,
-    Footer,
+    AppFooter,
   },
   data() {
     return {
