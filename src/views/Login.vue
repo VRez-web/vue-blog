@@ -69,6 +69,7 @@ export default {
 
     .router-link {
       color: #000;
+      text-decoration: underline;
     }
   }
 
