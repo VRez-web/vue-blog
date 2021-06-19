@@ -2,7 +2,7 @@
   <div class="modal">
     <div class="modal-content">
       <p>{{ modalMessage }}</p>
-      <button>Close</button>
+      <button @click="closeModal">Close</button>
     </div>
   </div>
 </template>
